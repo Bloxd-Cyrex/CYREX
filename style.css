@@ -10,7 +10,20 @@ body{
     color:white;
 }
 
-/* NAVBAR */
+.logo img{
+    width:170px;
+    height:auto;
+    object-fit:contain;
+
+    filter:
+    drop-shadow(0 0 10px #7dd4ff);
+
+    transition:0.3s;
+}
+
+.logo img:hover{
+    transform:scale(1.05);
+}
 
 nav{
     display:flex;
